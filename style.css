@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family : 'Segoe UI',
+sans-serif;
+box-sizing: border-box;
+}
+/* Home */
+.header{
+    min-height: 100vh;
+    width: 100%;
+background-image : linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+
+url(./images/1.b2177e17.jpg);
+background-position: center;
+background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+nav {
+    z-index : 99999;
+}
+
+nav img{
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-top: -10px;
+    margin-left: 60px;
+    
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+    margin-right: 100px;
+
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 35px;
+    font-weight: bold;
+
+}
+.nav-links ul li a{
+  color: #fff;
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    text-decoration: underline;
+}
+.contact{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+background-color : #004448;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+font-size: 14px;
+margin-bottom: 10px;
+margin-right: 70px;
+}
+.contact:hover{
+    background-color: #fff;
+color : #004448;
+    text-decoration: underline;
+}
+.menu-icon{
+    width: 28px;
+    height: 40px;
+    margin-top: -10vh;
+    display: none;
+}
+hr{
+ margin-bottom: -40px; 
+ color: #fff;  
+}
+.text-box{
+    width: 100%;
+    color: #fff;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    
+}
+.text-box img{
+border: 3px solid #fff;
+border-radius: 50%;
+margin-top: 20px;
+}
+.text-box h2{
+    font-family: 'Times New Roman', serif;
+}
+.text-box h5{
+    font-size: 18px;
+}
+.contact-1 {
+    border : 1px solid white;
+    border-radius : 5px;
+    padding : 10px 15px;
+    background-color : #004448;
+    color : #fff;
+    text-decoration : none;
+    font-weight : bold;
+    font-size : 14px;
+    margin-bottom: 100px;
+}
+.contact-1:hover {
+    background-color : #fff;
+    color : #004448;
+}
+
+/* About-Me */
+.col-4 .offer-img {
+    width: 22vw;
+    height: 50vh;
+    border: 1px solid #c0c0c0;
+    margin-left: 8vw;
+    border-radius: 20px;
+}
+.col-7 p{
+     text-align: justify;
+}
+.abt h2{
+    margin-bottom:30px ;
+}
+.abt button{
+    margin-left: 33.5vw;
+    margin-bottom: 40vh;
+}
+
+/* my Works */
+.work {
+    min-height : 100vh;
+    width : 100%;
+    background-image : linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+
+    url(./images/2.01a6a6e4.jpg);
+    background-position : center;
+    background-size : cover;
+}
+.wrk{
+    text-align: center;
+    color:#fff ;
+}
+.button{
+    margin-top: 20px;
+ margin-left: 80px;
+
+}
+.contact-2{
+border : 1px solid white;
+border-radius : 5px;
+padding : 10px 20px;
+background-color : #004448;
+color : #fff;
+text-decoration : none;
+font-weight : bold;
+font-size : 14px;
+margin-left: 70px;
+}
+.contact-2:hover {
+    background-color : #fff;
+    color : #004448;
+    text-decoration: underline;
+}
+.contact-3 {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #004448;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    
+    margin-left: 105px;
+}
+.contact-3:hover {
+    background-color : #fff;
+    color: #004448;
+    text-decoration : underline;
+}
+
+ /* experience */
+
+.experience {
+    min-height : 200vh;
+    width : 100%;
+    background-image : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+
+    url(./images/1.b2177e17.jpg);
+    background-position: center;
+    background-size : cover;
+margin-top: 50px;    
+}
+.row-2 .col-6{
+    color: #fff;
+    margin-top: 40px; 
+}
+ .label{
+     border: 1px solid white;
+     border-radius: 2px;
+     width: 100px;
+     height: 30px;
+     text-align: center;
+     margin-top: 40px;
+ }
+ .col-6 h5{
+     margin-top: 20px;
+ }
+ .past-work h5{
+     margin-top:40px ;
+ }
+ .past-work{
+     width: 100%;
+ background : linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+ }
+  .row-3{
+     width: 80%;
+      position: relative; 
+ } 
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+background : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+opacity: 0;
+transition: 1s;
+}
+.row-3:hover .overlay{
+    opacity: 1;
+}
+.project-desc{
+    color: #fff;
+width: 80%;
+position: absolute;
+bottom: 40%;
+left: 50%;
+transform: translateX(-50%);
+}
+.project-desc a{
+    font-size: 14px;
+    color: inherit;
+    text-decoration: none;
+    background-color: rgba(122, 120, 120, 0.6);
+    padding: 1em;
+}
+.project-desc a:hover{
+color: #fff;
+text-decoration: underline;
+}
+
+/* contact-me */
+.container{
+    margin-left: 20vw;
+    margin-top: 100px;
+
+}
+.container input{
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.your-class input {
+    float : left;
+    width: 500px;
+    justify-content: space-between;
+    
+}
+.subject input{
+    width: 75.5vw;
+border : 1px solid lightblue;
+
+}
+.message textarea{
+    width: 1020px;
+    margin-top: 20px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px; 
+}
+.container button{
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+margin-left: 68.2vw;
+border: 1px solid #004448;
+border-radius: 5px;
+color: #fff;
+background-color: #004448;
+margin-bottom: 10vh;
+}
+.container button:hover{
+    color: #004448;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+/* footer */
+
+.footer{
+    background: #004448;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+    text-align: center;
+
+}
+.footer .fa{
+color: #fff;
+
+border: 1px solid #fff;
+border-radius: 50%;
+padding: 10px;
+font-size: 18px;
+margin:50px 10px 10px;
+}
+.footer .fa:hover{
+    color: black;
+}
+.footer hr{
+    color: #fff;
+    margin: 20px 60px 20px;
+}
+
+.active{
+    background: #fff;
+    opacity: 1;
+}
+.active .contact a{
+    color: #fff;
+}
+
+.active ul li a{
+    color: #004448;
+}
+
+/* media query for 641px */
+
+@media screen and (max-width:641px) {
+nav img{
+    margin-left:50px;
+}
+.nav-links{
+    position:relative;
+    top: -20px;
+    left: 50px;
+    background: #004448;
+    width: 100%;
+    text-align: center;
+}
+.nav-links ul{
+overflow : hidden;
+transition : max-height 0.6s;
+}
+.nav-links ul li{
+    margin-left:-25px ;
+}
+.nav-links ul li a{
+    color: #fff;
+}
+.menu-icon{
+    margin-right: 40px;
+    margin-top:-10px;
+    display: block;
+    cursor: pointer;
+}
+.contact{
+    margin-right: 10px;
+}
+.text-box img{
+    margin-top: 40px;
+}
+.text-box h2{
+    font-size: 26px;
+}
+.text-box  h5 span{
+    display: inline-block;
+    margin-top: -20px;
+    font-size: 14px;
+}
+.abt{
+    margin-bottom: -10vw;
+}
+.abt h2{
+    margin-left: 2vw;
+}
+.abt .row{
+    display: block;
+}
+.col-4 .offer-img {
+    margin-left: 20vw;
+    width: 100%;
+    height: 100%;
+}
+.abt .col-7 {
+margin-top: 50px;
+width: 100%;
+}
+.col-7 h3{
+    margin-left: 10vw;
+}
+.col-7 h5{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 15px;
+}
+.col-7 p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.abt button{
+    width: 20vw;
+    height: 10vh;
+    font-size: 16px;
+    margin-left: 10vw;
+    margin-top: 20px; 
+    
+}
+
+.your-class input{
+    width: 230px;
+}
+.subject input{
+    width: 480px;
+}
+.message textarea{
+    width: 480px;
+}
+.container button{
+    margin-left:59vw ;
+}
+.work{
+    width: 100%;
+}
+.work .col{
+    margin-right: 15vw;
+}
+.row-2{
+    display: inline;
+}
+.contact-2{
+    margin-left: 40vw;
+    padding:10px;
+}
+.contact-3{
+margin-left : 45vw;
+padding:10px;
+}
+.col-4 .offer-img{
+    width: 50vw;
+}
+.col-7{
+    margin-top: 50vh;
+}
+}
